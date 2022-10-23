@@ -51,6 +51,17 @@
      3.4.2 Tag an image referenced by ID	  
      3.4.3 Tag an image referenced by Name	  
      3.4.4 Tag an image referenced by Name and Tag	  
-     3.4.5 Tag an image for a private repository  
+     3.4.5 Tag an image for a private repository    
+     
+4. Developing a real world projects  
+   4.1 Steps for initial project set up  
+       4.1.1 Code Snippet with explanation  
+       4.1.2 Step to build and run the application[manual]  
+       4.1.3 Few Commonly observed issues and solution for the same  
+   4.2 Containerizing application  
+       4.2.1 Create a docker file  
+       4.2.2  Create a jar file  
+       4.2.3 Execute docker build command  
+       4.2.4 Run Docker image  
 
  
