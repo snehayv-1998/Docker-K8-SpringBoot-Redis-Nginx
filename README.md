@@ -40,4 +40,17 @@
    2.10 Getting a command prompt in container  
    2.11 Container isolation  
    2.12 Reference   
+   
+3. Building Custom Image  
+   3.1 Creating docker Images  
+   3.2 Building Dockerfile  
+     3.2.1 Detailed brief out of how the instruction in docker file executes  
+   3.3 Rebuild using cache  
+   3.4 Tagging an image	  
+     3.4.1 While building image  
+     3.4.2 Tag an image referenced by ID	  
+     3.4.3 Tag an image referenced by Name	  
+     3.4.4 Tag an image referenced by Name and Tag	  
+     3.4.5 Tag an image for a private repository  
+
  
