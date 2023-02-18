@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  web:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+       # - /app/node_modules to skip the file being referenced
+        - build/libs/*.jar:/app #<file location outside the container> : <file location within container>
+    ports:
+      - "8080:8080"
+  redis-server:
+    image: "redis:alpine"
