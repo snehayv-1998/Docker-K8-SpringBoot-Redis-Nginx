@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: spring-pod
+  labels:
+    component: spring
+spec:
+  containers:
+    - name: spring
+      image: snehayv98/springbootdockerhelloworldproject:springbootwithdocker
+      ports:
+        - containerPort: 8080
